@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Grand+Hotel&display=swap');
 
-.brand-logo{
+.brand-logo, h2{
     font-family: 'Balsamiq Sans', cursive;
 font-family: 'Grand Hotel', cursive;
 }
@@ -13,5 +13,15 @@ font-family: 'Grand Hotel', cursive;
     max-width: 400px;
     margin: 10px auto;
     text-align: center;
+}
 
+.gallary{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 30%;
+    margin-top: 10px;
 }
